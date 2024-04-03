@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $("body").on("contextmenu", function(e) {
+      alert("Right-click is disabled");
+      return false; // Prevent default context menu
+    });
+  });
+</script>
+
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT MANAGEMENT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <p>Right Click is disabled on this Paragraph</p>
+<header class="header">
+<a href="#" class="logo"><span>Krishna</span>Organizers</a>
+
+<nav class="navbar">
+   <a href="#home">home</a>
+   <a href="#service">service</a>
+   <a href="#about">about</a>
+   <a href="#gallery">gallery</a>
+   <a href="#contact">contact</a>
+</nav>
+
+<div id="menu-bars" class="fas fa-bars"></div>
+
+</header>
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>it's time to celebrate! the bests <span>event organizers</span></h3>
+        <a href="#contact" class="btn">contact us</a>
+    </div>
+
+    <div class="swiper mySwiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="slide-1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="slide-2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="slide-3.jpg" alt=""></div> 
+            <div class="swiper-slide"><img src="slide-4.jpg" alt=""></div> 
+            <div class="swiper-slide"><img src="slide-5.jpg" alt=""></div> 
+            <div class="swiper-slide"><img src="slide-6.jpg" alt=""></div> 
+            
+        </div>
+    </div>
+
+</section>
+
+<section class="service" id="service">
+    <h1 class="heading">our <span>service</span> </h1>
+
+    <div class="box-container">
+       
+        <div class="box">
+           <i class= "fas fa-map-marker-alt"></i>
+           <h3>venue section</h3>
+           <p>Venue selection is a crucial aspect when planning an event or gathering.
+             The choice of venue can greatly impact the success and overall experience of the occasion. </p>
+        </div>
+
+        <div class="box">
+            <i class= "fas fa-envelope"></i>
+            <h3>invitation card</h3>
+            <p>An invitation card serves as a formal announcement and invitation to an event.
+             It plays a significant role in setting the tone and creating anticipation for the occasion.</p>
+         </div>
+    
+         <div class="box">
+            <i class= "fas fa-music"></i>
+            <h3>entertainment</h3>
+            <p>Entertainment plays a vital role in enhancing the enjoyment and engagement of any event or gathering. 
+                It adds a sense of excitement, creates memorable experiences, and keeps attendees 
+                    entertained throughout the occasion.</p>
+         </div>
+
+         <div class="box">
+            <i class= "fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Food and drinks are not just essential components of
+         any event but also have the power to enhance the overall experience and satisfaction of attendees.</p>
+         </div>
+
+         <div class="box">
+            <i class= "fas fa-photo-video"></i>
+            <h3>photos and video</h3>
+            <p>Photos and videos are invaluable tools for capturing and preserving the memories of an event or occasion. 
+                They allow us to revisit and relive those special moments, even long after the event has ended.</p>
+         </div>
+
+         <div class="box">
+            <i class= "fas fa-birthday-cake"></i>
+            <h3>custom food</h3>
+            <p>Custom food offers a unique and personalized culinary experience that goes beyond traditional menus. 
+                It allows event organizers and hosts to tailor the food offerings to specific themes, 
+                                        preferences, or dietary requirements.</p>
+         </div>
+
+    </div>
+</section>
+<section class="about" id="about">
+    
+    <h1 class="heading"><span>About</span> us </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="content.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>we will give a very spacial celebration for you</h3>
+            <p>Welcome to Krishna Organizers, your trusted partner in creating extraordinary events.
+                 With our passion for excellence and attention to detail, we specialize in planning and 
+                 organizing unforgettable experiences. From corporate conferences to social gatherings, 
+                 we bring your vision to life with professionalism and creativity. With a dedicated team and
+                  a network of trusted vendors, we ensure seamless execution and a memorable event that exceeds
+                   your expectations.
+                 Trust us to make your event truly exceptional.</p>
+             <a href="#contact" class="btn">contact us</a>
+        </div>
+    </div>
+</section>
+<section class="gallery" id="gallery">
+    <h1 class="heading">our <span>gallery</span></h1>
+
+    <div class="box-container">
+         <div class="box">
+            <img src="g-1.jpg" alt="">
+            <h3 class="title">photos and events</h3>
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+         </div>
+         
+         <div class="box">
+              <img src="g-2.jpg" alt="">
+              <h3 class="title">photos and events</h3>
+              <div class="icons">
+                  <a href="#" class="fas fa-heart"></a>
+                  <a href="#" class="fas fa-share"></a>
+                  <a href="#" class="fas fa-eye"></a>
+              </div>
+         </div>
+        
+         <div class="box">
+              <img src="g-3.jpg" alt="">
+              <h3 class="title">photos and events</h3>
+              <div class="icons">
+                  <a href="#" class="fas fa-heart"></a>
+                  <a href="#" class="fas fa-share"></a>
+                  <a href="#" class="fas fa-eye"></a>
+              </div>
+           </div>
+           
+           <div class="box">
+              <img src="g-4.jpg" alt="">
+              <h3 class="title">photos and events</h3>
+              <div class="icons">
+                  <a href="#" class="fas fa-heart"></a>
+                  <a href="#" class="fas fa-share"></a>
+                  <a href="#" class="fas fa-eye"></a>
+              </div>
+            </div>
+            
+            <div class="box">
+              <img src="g-5.jpg" alt="">
+              <h3 class="title">photos and events</h3>
+              <div class="icons">
+                  <a href="#" class="fas fa-heart"></a>
+                  <a href="#" class="fas fa-share"></a>
+                  <a href="#" class="fas fa-eye"></a>
+              </div>
+            </div>
+               
+            <div class="box">
+                  <img src="g-6.jpg" alt="">
+                  <h3 class="title">photos and events</h3>
+                  <div class="icons">
+                       <a href="#" class="fas fa-heart"></a>
+                       <a href="#" class="fas fa-share"></a>
+                       <a href="#" class="fas fa-eye"></a>
+                       </div>
+             </div>
+                    
+             <div class="box">
+                <img src="g-6.jpg" alt="">
+                <h3 class="title">photos and events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+             </div>
+                       
+             <div class="box">
+                <img src="g-1.jpg" alt="">
+                <h3 class="title">photos and events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+             </div>
+             <div class="box">
+                <img src="g-1.jpg" alt="">
+                <h3 class="title">photos and events</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    </div>
+             </div>
+             
+        </div>
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+    <form id="contactForm">
+        <div class="inputBox">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text"  id="email" placeholder="email" required>
+        </div>
+        <div class="inputBox">
+            <input type="tel"  id="number" placeholder="number" required>
+            <input type="text" id="subject" placeholder="subject" required>
+        </div>
+        <textarea name="message" id="message" placeholder="your message" cols="30" rows="10" required></textarea>
+        <input type="submit" value="send message" class="btn">
+    </form>
+    <table id="messageTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Subject</th>
+            <th>Message</th>
+          </tr>
+        </thead>
+        <tbody id="messageTableBody">
+        </tbody>
+      </table>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
